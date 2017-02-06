@@ -1,0 +1,19 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="JSPFeedback:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/JSPFeedback_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="JSPFeedback/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="JSPFeedback" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="mysql-connector-java-5.1.40-bin" />
+          <element id="library" level="project" name="activation" />
+          <element id="library" level="project" name="twilio-7.4.0" />
+          <element id="library" level="project" name="twilio-7.4.0-jar-with-dependencies" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
